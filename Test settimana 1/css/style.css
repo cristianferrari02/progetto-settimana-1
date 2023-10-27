@@ -1,0 +1,155 @@
+/* Your styles here */
+html{
+    font-size: 1em;
+}
+
+/* Body */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem; 
+    line-height: 1.65;
+    padding: 0px;
+    text-align: center;
+}
+
+#immagine {
+    background-color: black ;
+    padding: 40px;
+    text-align: center;
+}
+
+#immagine img{
+    width: 50%;
+}
+header{
+    width: 100%;
+}
+
+#a {
+    text-align: center;
+    padding: 60px 40px;
+    background-image: url('../images/banner.jpg');
+    background-size: contain;
+}
+
+#a p {
+    margin: 20px 0;
+}
+
+#a button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #f04c2f;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+
+h1, h3 {
+    color: #25a2c3;
+    font-weight: bold;
+}
+
+h3, h2 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+main img {
+    border-radius: 50%;
+    width: 70%;
+    margin-top: 40px;
+}
+
+main {
+}
+
+.paragrafo {
+    margin-top: 50px;
+    padding: 0 40px;
+}
+
+.banner-rosso {
+    padding: 50px;
+    background-color: #f04c2f;
+    color:white;
+}
+
+.banner-rosso p{
+    margin-top: 40px;
+    font-style: italic;
+}
+
+.banner-rosso span {
+    font-size: 0.8rem;
+}
+
+aside {
+    padding: 40px 20px;
+}
+
+.card {
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 40px 20px;
+    background-color: #22a9cc;
+}
+
+footer h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer a, footer p {
+    color: white;
+    display: block;
+}
+
+#copy {
+    font-size: 0.9rem;
+}
+
+footer hr {
+    width: 50%;
+    border-color: white;
+}
+
+#copy a{
+    display: inline;
+}
+
+.footer-element a, .footer-element p {
+    display: inline;
+}
+
+.icona {
+    display: inline-block;
+    background-color: white;
+    color: #22a9cc;
+    font-size: 0.8rem;
+    padding: 1px 4px 0px 4px;
+    border-radius: 2px;
+}
